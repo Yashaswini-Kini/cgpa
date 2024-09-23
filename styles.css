@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.content-section {
+    display: none;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+form input {
+    margin-bottom: 15px;
+}
+
+#result1, #result2, #result3 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .content-section {
+        padding: 10px;
+    }
+}
